@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Helvetica-W01-Light";
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix");
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/d5f9f72d-afb7-4c57-8348-b4bdac42edbb.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/05ad458f-263b-413f-b054-6001a987ff3e.svg#05ad458f-263b-413f-b054-6001a987ff3e") format("svg");
+}
+
+
+@font-face {
+    font-family: "Helvetica-W02-Light";
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/ff80873b-6ac3-44f7-b029-1b4111beac76.eot?#iefix");
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/ff80873b-6ac3-44f7-b029-1b4111beac76.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80c34ad2-27c2-4d99-90fa-985fd64ab81a.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b8cb02c2-5b58-48d8-9501-8d02869154c2.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/92c941ea-2b06-4b72-9165-17476d424d6c.svg#92c941ea-2b06-4b72-9165-17476d424d6c") format("svg");
+}
+
+
+.navbar.sticky-top {
+	padding: 0;
+}
+
+#header_logo {
+    width: 200px;
+    height: 142px;
+    object-fit: cover;
+}
+
+.white-navbar {
+	background-color: white;
+}
+
+ul.CenteredList {
+    height: 100%;
+}
+
+ul.CenteredList > li {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 500px;
+}
+
+.nav-item {
+	display: inline-block;
+    padding: 0 10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    font: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+.ImageText {
+    font-family: futura-lt-w01-light,sans-serif;
+    text-align: center;
+
+    position: relative;
+
+    letter-spacing: 0.05em;
+}
+
+p.CenteredTextBlock {
+    max-width: 33%;
+    margin: 20px auto;
+}
+
+hr.hrLine {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-top: 1px solid rgba(0, 0, 0, 0.35);
+    width:100%;
+    text-align:center;
+}
+
+a.nav-link {
+    text-align: left;
+    line-height: 45px;
+
+    display: inline-block;
+    padding: 0 10px;
+    color: #1E656D !important;
+    transition: color 0.4s ease 0s;
+}
+
+a.nav-link:hover {
+	color: #F62A00 !important;
+    transition: color 0.4s ease 0s;
+}
+
+.nav-item.active > a.nav-link {
+	color: #839D9F !important;
+}
+
+a.nav-link.nav-button {
+	background-color: rgba(246, 42, 0, 1);
+    border: solid rgba(154, 20, 82, 1) 0px;
+    cursor: pointer !important;
+    justify-content: center;
+
+    color: white !important;
+
+    text-align: initial;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    border-radius: 10px;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    transition: color 0.4s ease 0s;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: calc(-1 * 0px) 0px 0;
+    position: relative;
+    white-space: nowrap;
+
+	margin: 0;
+}
+
+a.nav-link.nav-button:hover {
+	background-color: rgba(154, 20, 82, 1);
+	color: white;
+}
+
+.amaia-content {
+    padding: 0;
+	padding-bottom: 10px;
+}
+
+.white-content {
+	background-color: white;
+}
+
+.gray-content {
+	background-color: #f8f8f8;
+}
+
+#contact_send {
+    font: normal normal 700 17px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    float: right;
+    background-color: rgba(246, 42, 0, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+	margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    color: red;
+}
+
+h5 {
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.button_1 {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 3px solid #839d9f;
+    color: #57696A !important;
+    transition: 0.5s;
+}
+
+.button_1:hover {
+    border: 3px solid black;
+}
+
+.color_19 {
+    color: #57696A !important;
+}
+
+.font_0 {
+    font: normal normal normal 17px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    color: #000000;
+}
+
+.font_2 {
+    font: normal normal normal 42px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    color:#000000;
+} 
+
+.font_8 {
+    font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #000000;
+}
