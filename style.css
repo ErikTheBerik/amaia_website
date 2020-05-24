@@ -43,8 +43,8 @@ ul.CenteredList > li {
     margin-left: 10px;
     margin-right: 10px;
 
-    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
     font: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
 }
 
 .ImageText {
