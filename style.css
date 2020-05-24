@@ -141,6 +141,12 @@ a.nav-link.nav-button:hover {
 	background-color: #f8f8f8;
 }
 
+#queDicenCarousel {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #contact_send {
     font: normal normal 700 17px/1.4em Futura-Light,sans-serif;
     float: right;
