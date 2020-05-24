@@ -11,6 +11,18 @@
     src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/ff80873b-6ac3-44f7-b029-1b4111beac76.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80c34ad2-27c2-4d99-90fa-985fd64ab81a.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b8cb02c2-5b58-48d8-9501-8d02869154c2.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/92c941ea-2b06-4b72-9165-17476d424d6c.svg#92c941ea-2b06-4b72-9165-17476d424d6c") format("svg");
 }
 
+@font-face {
+    font-family: "Futura-Light";
+    src: url("//db.onlinewebfonts.com/t/2167e76f00e569cc11b3665679996380.eot");
+    src: url("//db.onlinewebfonts.com/t/2167e76f00e569cc11b3665679996380.eot?#iefix")
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2167e76f00e569cc11b3665679996380.woff2")
+    format("woff2"), url("//db.onlinewebfonts.com/t/2167e76f00e569cc11b3665679996380.woff")
+    format("woff"), url("//db.onlinewebfonts.com/t/2167e76f00e569cc11b3665679996380.ttf")
+    format("truetype"),
+    url("//db.onlinewebfonts.com/t/2167e76f00e569cc11b3665679996380.svg#Futura Light")
+    format("svg");
+}
+
 
 .navbar.sticky-top {
 	padding: 0;
@@ -44,11 +56,11 @@ ul.CenteredList > li {
     margin-right: 10px;
 
     font: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
-    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    font-family: Futura-Light, sans-serif;
 }
 
 .ImageText {
-    font-family: futura-lt-w01-light,sans-serif;
+    font-family: Futura-Light,sans-serif;
     text-align: center;
 
     position: relative;
@@ -131,7 +143,7 @@ a.nav-link.nav-button:hover {
 }
 
 #contact_send {
-    font: normal normal 700 17px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    font: normal normal 700 17px/1.4em Futura-Light,sans-serif;
     float: right;
     background-color: rgba(246, 42, 0, 1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.6);
@@ -169,16 +181,16 @@ h5 {
 }
 
 .font_0 {
-    font: normal normal normal 17px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    font: normal normal normal 17px/1.4em Futura-Light,sans-serif;
     color: #000000;
 }
 
 .font_2 {
-    font: normal normal normal 42px/1.4em lulo-clean-w01-one-bold,sans-serif;
+    font: normal normal normal 42px/1.4em Futura-Light,sans-serif;
     color:#000000;
 } 
 
 .font_8 {
-    font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    font: normal normal normal 15px/1.4em Futura-Light, sans-serif;
     color: #000000;
 }
