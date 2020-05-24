@@ -179,6 +179,13 @@ a.nav-link.nav-button:hover {
     color: rgb(79, 79, 79);
 }
 
+.CarouselText > hr {
+    width: 20%;
+    height: 0px;
+    color: rgb(79, 79, 79);
+    border: 2px solid rgb(79, 79, 79);
+}
+
 .CarouselText > .text {
     font-family: Futura-Light;
     font-size: 17px;
